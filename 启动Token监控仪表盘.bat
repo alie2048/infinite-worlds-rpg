@@ -1,21 +1,19 @@
 @echo off
-title 反重力 Agent Token 监控系统 - 网页仪表盘
-color 0A
+title 启动 Token 监控后台服务
 cd /d "%~dp0"
 
-set "PY_EXE=python"
-if exist "%LOCALAPPDATA%\Programs\Python\Python312\python.exe" set "PY_EXE=%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
-if exist "%LOCALAPPDATA%\Programs\Python\Python311\python.exe" set "PY_EXE=%LOCALAPPDATA%\Programs\Python\Python311\python.exe"
-if exist "C:\Program Files\Python312\python.exe" set "PY_EXE=C:\Program Files\Python312\python.exe"
+set "PYW_EXE=pythonw.exe"
+if exist "%LOCALAPPDATA%\Programs\Python\Python312\pythonw.exe" set "PYW_EXE=%LOCALAPPDATA%\Programs\Python\Python312\pythonw.exe"
+if exist "%LOCALAPPDATA%\Programs\Python\Python311\pythonw.exe" set "PYW_EXE=%LOCALAPPDATA%\Programs\Python\Python311\pythonw.exe"
 
-echo ========================================================
-echo    正在启动 反重力 Agent Token 监控系统 (Web Dashboard)...
-echo ========================================================
-echo.
-echo 服务地址: http://127.0.0.1:8765
-echo 正在自动为您打开浏览器仪表盘...
-echo （按 Ctrl+C 可停止监控服务）
-echo.
+:: 检查 8765 端口是否已经启动
+netstat -ano | findstr /r ":8765 " >nul 2>&1
+if errorlevel 1 (
+    start "" "%PYW_EXE%" -m antigravity_token_monitor web --port 8765
+)
+
+:: 打开浏览器网页
 start "" "http://127.0.0.1:8765"
-"%PY_EXE%" -m antigravity_token_monitor web --port 8765
-pause
+
+:: 自动退出当前黑框，后台静默守护
+exit
