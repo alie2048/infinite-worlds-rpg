@@ -1,9 +1,21 @@
 @echo off
-chcp 65001 >nul
-title åé‡åŠ› Agent Token ç›‘æ§ç³»ç»Ÿ - ç½‘é¡µä»ªè¡¨ç›˜
-echo ========================================================
-echo    æ­£åœ¨å¯åŠ¨ åé‡åŠ› Agent Token ç›‘æ§ç³»ç»Ÿ (Web Dashboard)...
-echo ========================================================
+title ·´ÖØÁ¦ Agent Token ¼à¿ØÏµÍ³ - ÍøÒ³ÒÇ±íÅÌ
+color 0A
 cd /d "%~dp0"
-python -m antigravity_token_monitor web --port 8765
+
+set "PY_EXE=python"
+if exist "%LOCALAPPDATA%\Programs\Python\Python312\python.exe" set "PY_EXE=%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
+if exist "%LOCALAPPDATA%\Programs\Python\Python311\python.exe" set "PY_EXE=%LOCALAPPDATA%\Programs\Python\Python311\python.exe"
+if exist "C:\Program Files\Python312\python.exe" set "PY_EXE=C:\Program Files\Python312\python.exe"
+
+echo ========================================================
+echo    ÕıÔÚÆô¶¯ ·´ÖØÁ¦ Agent Token ¼à¿ØÏµÍ³ (Web Dashboard)...
+echo ========================================================
+echo.
+echo ·şÎñµØÖ·: http://127.0.0.1:8765
+echo ÕıÔÚ×Ô¶¯ÎªÄú´ò¿ªä¯ÀÀÆ÷ÒÇ±íÅÌ...
+echo £¨°´ Ctrl+C ¿ÉÍ£Ö¹¼à¿Ø·şÎñ£©
+echo.
+start "" "http://127.0.0.1:8765"
+"%PY_EXE%" -m antigravity_token_monitor web --port 8765
 pause

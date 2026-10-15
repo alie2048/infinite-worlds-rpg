@@ -1,11 +1,17 @@
 @echo off
-chcp 65001 >nul
+title ·´ÖØÁ¦ Agent Token Í³¼ÆÏµÍ³
+color 0A
 cd /d "%~dp0"
-python -m antigravity_token_monitor summary
+
+set "PY_EXE=python"
+if exist "%LOCALAPPDATA%\Programs\Python\Python312\python.exe" set "PY_EXE=%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
+if exist "%LOCALAPPDATA%\Programs\Python\Python311\python.exe" set "PY_EXE=%LOCALAPPDATA%\Programs\Python\Python311\python.exe"
+if exist "C:\Program Files\Python312\python.exe" set "PY_EXE=C:\Program Files\Python312\python.exe"
+
+"%PY_EXE%" -m antigravity_token_monitor summary
 echo.
-echo å¯ç”¨å‘½ä»¤æç¤º:
-echo   python -m antigravity_token_monitor detail ^<ID^>  (æŸ¥çœ‹æŒ‡å®šå¯¹è¯é€è½®æ˜ç»†)
-echo   python -m antigravity_token_monitor watch         (å®æ—¶ç›¯ç›˜ç›‘æ§)
-echo   python -m antigravity_token_monitor web           (å¯åŠ¨æµè§ˆå™¨å¯è§†åŒ–ä»ªè¡¨ç›˜)
+echo ³£ÓÃÃüÁîËµÃ÷:
+echo   "%PY_EXE%" -m antigravity_token_monitor watch    (ÊµÊ±¶¢ÅÌ¶¯Ì¬Ë¢ĞÂ)
+echo   "%PY_EXE%" -m antigravity_token_monitor web      (Æô¶¯¿ÉÊÓ»¯ÍøÒ³ÒÇ±íÅÌ)
 echo.
 pause
