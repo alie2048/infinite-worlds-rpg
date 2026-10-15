@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>诸天之旅 · 风花雪月篇 - 翻页阅读器</title>
+<style>
+  :root {
+    --bg-color: #f6f3eb;
+    --text-color: #2c2925;
+    --panel-bg: #eae4d5;
+    --accent-color: #7b2d26;
+    --border-color: #d8cebc;
+  }
+  body.dark-mode {
+    --bg-color: #1a1a1c;
+    --text-color: #dcdcdc;
+    --panel-bg: #252528;
+    --accent-color: #c98860;
+    --border-color: #38383e;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.85;
+    transition: all 0.25s ease;
+  }
+  .container {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 40px 24px 100px;
+    min-height: 80vh;
+  }
+  header {
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    font-size: 1.55rem;
+    margin: 0;
+    color: var(--accent-color);
+  }
+  .tools button {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .page-indicator {
+    font-size: 0.95rem;
+    color: #888;
+  }
+  .content {
+    font-size: 1.12rem;
+    letter-spacing: 0.5px;
+    white-space: pre-line;
+  }
+  .footer-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--panel-bg);
+    border-top: 1px solid var(--border-color);
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -4px 16px rgba(0,0,0,0.06);
+  }
+  .footer-nav button {
+    background: var(--accent-color);
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .footer-nav button:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+  .toc-modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  .toc-box {
+    background: var(--bg-color);
+    padding: 24px;
+    border-radius: 12px;
+    max-width: 450px;
+    width: 90%;
+    max-height: 70vh;
+    overflow-y: auto;
+    border: 1px solid var(--border-color);
+  }
+  .toc-item {
+    padding: 10px 14px;
+    margin: 4px 0;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .toc-item:hover {
+    background: var(--panel-bg);
+    color: var(--accent-color);
+  }
+  .toc-item.active {
+    background: var(--accent-color);
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div>
+      <h1 id="chapter-title">加载中...</h1>
+      <span class="page-indicator" id="page-indicator">第 1 / 8 幕</span>
+    </div>
+    <div class="tools">
+      <button onclick="toggleToc()">📑 目录</button>
+      <button onclick="toggleTheme()">🌓 主题</button>
+    </div>
+  </header>
+
+  <div class="content" id="chapter-content">
+  </div>
+</div>
+
+<div class="footer-nav">
+  <button id="prev-btn" onclick="prevPage()">← 上一幕 (Left)</button>
+  <span style="font-size:0.9rem; color:#777;">键盘 ← → 亦可翻页</span>
+  <button id="next-btn" onclick="nextPage()">下一幕 (Right) →</button>
+</div>
+
+<div class="toc-modal" id="toc-modal" onclick="toggleToc()">
+  <div class="toc-box" onclick="event.stopPropagation()">
+    <h3 style="margin-top:0; color:var(--accent-color);">📑 幕次目录</h3>
+    <div id="toc-list"></div>
+  </div>
+</div>
+
+<script>
+const scenes = [
+  {
+    title: "第一幕 · 觉醒与跨界",
+    file: "第01幕_觉醒与跨界.md"
+  },
+  {
+    title: "第二幕 · 降临加尔古·玛库",
+    file: "第02幕_降临加尔古玛库.md"
+  },
+  {
+    title: "第三幕 · 漫步中庭与枢密通报",
+    file: "第03幕_漫步中庭与枢密通报.md"
+  },
+  {
+    title: "第四幕 · 故人之名",
+    file: "第04幕_故人之名.md"
+  },
+  {
+    title: "第五幕 · 屏退左右与鞑古扎之秘",
+    file: "第05幕_屏退左右与鞑古扎之秘.md"
+  },
+  {
+    title: "第六幕 · 石阶椰揄与初见大司教",
+    file: "第06幕_石阶椰揄与初见大司教.md"
+  },
+  {
+    title: "第七幕 · 真诚之言与高塔落座",
+    file: "第07幕_真诚之言与高塔落座.md"
+  },
+  {
+    title: "第八幕 · 圆桌之叙与树状之影",
+    file: "第08幕_圆桌之叙与树状之影.md"
+  },
+  {
+    title: "第九幕 · 换我来守护你",
+    file: "第09幕_换我来守护你.md"
+  },
+  {
+    title: "第十幕 · 阴影中的兵戈",
+    file: "第10幕_阴影中的兵戈.md"
+  },
+  {
+    title: "第十一幕 · 未落之罪与特别教官",
+    file: "第11幕_未落之罪与特别教官.md"
+  },
+  {
+    title: "第十二幕 · 进退之间",
+    file: "第12幕_进退之间.md"
+  },
+  {
+    title: "第十三幕 · 诸天兵法与学院日常",
+    file: "第13幕_诸天兵法与学院日常.md"
+  },
+  {
+    title: "第十四幕 · 异邦风霜与不可言之秘",
+    file: "第14幕_异邦风霜与不可言之秘.md"
+  },
+  {
+    title: "第十五幕 · 赤红谷的断壁与远古哀歌",
+    file: "第15幕_赤红谷的断壁与远古哀歌.md"
+  },
+  {
+    title: "第十六幕 · 凯旋之余与心之微澜",
+    file: "第16幕_凯旋之余与心之微澜.md"
+  }
+];
+
+let curIndex = 0;
+
+async function loadScene(index) {
+  curIndex = index;
+  const s = scenes[index];
+  document.getElementById("chapter-title").innerText = s.title;
+  document.getElementById("page-indicator").innerText = `第 ${index + 1} / ${scenes.length} 幕`;
+  
+  try {
+    const res = await fetch(s.file);
+    let text = await res.text();
+    text = text.replace(/^# .*?\n/, '').replace(/> 导航.*?\n/g, '').replace(/---/g, '').replace(/> 翻页导航.*$/s, '').trim();
+    document.getElementById("chapter-content").innerText = text;
+  } catch(e) {
+    document.getElementById("chapter-content").innerText = "读取幕次失败，可通过编辑器直接打开对应 Markdown 文件。";
+  }
+
+  document.getElementById("prev-btn").disabled = (index === 0);
+  document.getElementById("next-btn").disabled = (index === scenes.length - 1);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function prevPage() {
+  if (curIndex > 0) loadScene(curIndex - 1);
+}
+function nextPage() {
+  if (curIndex < scenes.length - 1) loadScene(curIndex + 1);
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowLeft") prevPage();
+  if (e.key === "ArrowRight") nextPage();
+});
+
+function toggleTheme() {
+  document.body.classList.toggle("dark-mode");
+}
+
+function toggleToc() {
+  const m = document.getElementById("toc-modal");
+  m.style.display = (m.style.display === "flex") ? "none" : "flex";
+  if (m.style.display === "flex") {
+    renderToc();
+  }
+}
+
+function renderToc() {
+  const list = document.getElementById("toc-list");
+  list.innerHTML = "";
+  scenes.forEach((s, idx) => {
+    const div = document.createElement("div");
+    div.className = "toc-item" + (idx === curIndex ? " active" : "");
+    div.innerText = s.title;
+    div.onclick = () => {
+      loadScene(idx);
+      toggleToc();
+    };
+    list.appendChild(div);
+  });
+}
+
+loadScene(0);
+</script>
+</body>
+</html>

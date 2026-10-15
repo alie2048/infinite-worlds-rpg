@@ -1,0 +1,1356 @@
+{
+  "skill": "infinite-worlds-rpg",
+  "snapshot": "2026-09-19",
+  "world_count": 24,
+  "declared_primary_records": 1619,
+  "rank_count": 126,
+  "source_entry": "各世界最终版入口.md",
+  "source_entry_sha256": "6c7855144dc329e8c7c50eae78f041f2bc583d95aa93af66b9cf784c1a96799a",
+  "transformation": "主表值保留；重定向已收入的本地链接，未收入链接改为来源提示；新游戏公设覆盖旧主持规则。",
+  "worlds": [
+    {
+      "id": 1,
+      "name": "斗破苍穹",
+      "declared_records": 105,
+      "aliases": [
+        "斗破",
+        "斗破苍穹",
+        "BTTH",
+        "萧炎",
+        "斗之气"
+      ],
+      "path": "references/worlds/01-斗破苍穹/index.md",
+      "primary": "references/worlds/01-斗破苍穹/levels.md",
+      "references": [
+        "references/worlds/01-斗破苍穹/reference-01.md"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "大主宰",
+      "declared_records": 70,
+      "aliases": [
+        "大主宰",
+        "牧尘",
+        "The Great Ruler"
+      ],
+      "path": "references/worlds/02-大主宰/index.md",
+      "primary": "references/worlds/02-大主宰/levels.md",
+      "references": [
+        "references/worlds/02-大主宰/reference-01.md"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "遮天",
+      "declared_records": 69,
+      "aliases": [
+        "遮天",
+        "叶凡",
+        "狠人大帝",
+        "无始",
+        "北斗",
+        "红尘仙"
+      ],
+      "path": "references/worlds/03-遮天/index.md",
+      "primary": "references/worlds/03-遮天/levels.md",
+      "references": [
+        "references/worlds/03-遮天/reference-01.md"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "完美世界",
+      "declared_records": 105,
+      "aliases": [
+        "完美世界",
+        "完美",
+        "石昊",
+        "荒天帝",
+        "界海",
+        "搬血",
+        "仙王"
+      ],
+      "path": "references/worlds/04-完美世界/index.md",
+      "primary": "references/worlds/04-完美世界/levels.md",
+      "references": [
+        "references/worlds/04-完美世界/reference-01.md",
+        "references/worlds/04-完美世界/reference-02.md"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "圣墟",
+      "declared_records": 135,
+      "aliases": [
+        "圣墟",
+        "楚风",
+        "祭道",
+        "祭道之上"
+      ],
+      "path": "references/worlds/05-圣墟/index.md",
+      "primary": "references/worlds/05-圣墟/levels.md",
+      "references": [
+        "references/worlds/05-圣墟/reference-01.md",
+        "references/worlds/05-圣墟/reference-02.md"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "吞噬星空",
+      "declared_records": 114,
+      "aliases": [
+        "吞噬星空",
+        "吞噬",
+        "罗峰",
+        "浑源领主",
+        "坐山客"
+      ],
+      "path": "references/worlds/06-吞噬星空/index.md",
+      "primary": "references/worlds/06-吞噬星空/levels.md",
+      "references": [
+        "references/worlds/06-吞噬星空/reference-01.md"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "佛本是道",
+      "declared_records": 19,
+      "aliases": [
+        "佛本是道",
+        "佛本",
+        "周青",
+        "通天教主"
+      ],
+      "path": "references/worlds/07-佛本是道/index.md",
+      "primary": "references/worlds/07-佛本是道/levels.md",
+      "references": [
+        "references/worlds/07-佛本是道/reference-01.md",
+        "references/worlds/07-佛本是道/reference-02.md"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "凡人修仙传",
+      "declared_records": 71,
+      "aliases": [
+        "凡人修仙传",
+        "凡人",
+        "韩立",
+        "韩老魔"
+      ],
+      "path": "references/worlds/08-凡人修仙传/index.md",
+      "primary": "references/worlds/08-凡人修仙传/levels.md",
+      "references": [
+        "references/worlds/08-凡人修仙传/reference-01.md"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "龙珠",
+      "declared_records": 102,
+      "aliases": [
+        "龙珠",
+        "Dragon Ball",
+        "DBZ",
+        "DBS",
+        "孙悟空",
+        "卡卡罗特",
+        "全王",
+        "Z1",
+        "Z2",
+        "Z3"
+      ],
+      "path": "references/worlds/09-龙珠/index.md",
+      "primary": "references/worlds/09-龙珠/levels.md",
+      "references": [
+        "references/worlds/09-龙珠/reference-01.md",
+        "references/worlds/09-龙珠/reference-02.md"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "型月",
+      "declared_records": 58,
+      "aliases": [
+        "型月",
+        "TYPE-MOON",
+        "Type Moon",
+        "Fate",
+        "月姬",
+        "根源"
+      ],
+      "path": "references/worlds/10-型月/index.md",
+      "primary": "references/worlds/10-型月/levels.md",
+      "references": [
+        "references/worlds/10-型月/reference-01.md"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DND费伦大陆",
+      "declared_records": 75,
+      "aliases": [
+        "DND费伦大陆",
+        "DND",
+        "D&D",
+        "龙与地下城",
+        "费伦",
+        "Forgotten Realms"
+      ],
+      "path": "references/worlds/11-DND费伦大陆/index.md",
+      "primary": "references/worlds/11-DND费伦大陆/levels.md",
+      "references": [
+        "references/worlds/11-DND费伦大陆/reference-01.md",
+        "references/worlds/11-DND费伦大陆/reference-02.md"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "斗罗大陆",
+      "declared_records": 50,
+      "aliases": [
+        "斗罗大陆",
+        "斗罗",
+        "唐三",
+        "魂师"
+      ],
+      "path": "references/worlds/12-斗罗大陆/index.md",
+      "primary": "references/worlds/12-斗罗大陆/levels.md",
+      "references": [
+        "references/worlds/12-斗罗大陆/reference-01.md",
+        "references/worlds/12-斗罗大陆/reference-02.md",
+        "references/worlds/12-斗罗大陆/reference-03.md"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "诡秘之主",
+      "declared_records": 18,
+      "aliases": [
+        "诡秘之主",
+        "诡秘",
+        "克莱恩",
+        "愚者",
+        "序列"
+      ],
+      "path": "references/worlds/13-诡秘之主/index.md",
+      "primary": "references/worlds/13-诡秘之主/levels.md",
+      "references": [
+        "references/worlds/13-诡秘之主/reference-01.md",
+        "references/worlds/13-诡秘之主/reference-02.md",
+        "references/worlds/13-诡秘之主/reference-03.md",
+        "references/worlds/13-诡秘之主/reference-04.md"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "漫威漫画616",
+      "declared_records": 31,
+      "aliases": [
+        "漫威漫画616",
+        "漫威",
+        "Marvel",
+        "616",
+        "生命法庭",
+        "OAA",
+        "TOAA",
+        "超越者"
+      ],
+      "path": "references/worlds/14-漫威漫画616/index.md",
+      "primary": "references/worlds/14-漫威漫画616/levels.md",
+      "references": [
+        "references/worlds/14-漫威漫画616/reference-01.md",
+        "references/worlds/14-漫威漫画616/reference-02.md",
+        "references/worlds/14-漫威漫画616/reference-03.md",
+        "references/worlds/14-漫威漫画616/reference-04.md"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "克苏鲁神话",
+      "declared_records": 16,
+      "aliases": [
+        "克苏鲁神话",
+        "克苏鲁",
+        "Cthulhu",
+        "Lovecraft",
+        "犹格索托斯",
+        "犹格",
+        "Yog-Sothoth",
+        "阿撒托斯",
+        "Azathoth",
+        "奈亚",
+        "Nyarlathotep"
+      ],
+      "path": "references/worlds/15-克苏鲁神话/index.md",
+      "primary": "references/worlds/15-克苏鲁神话/levels.md",
+      "references": [
+        "references/worlds/15-克苏鲁神话/reference-01.md",
+        "references/worlds/15-克苏鲁神话/reference-02.md"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "仙逆",
+      "declared_records": 139,
+      "aliases": [
+        "仙逆",
+        "王林",
+        "凝气",
+        "净涅",
+        "踏天"
+      ],
+      "path": "references/worlds/16-仙逆/index.md",
+      "primary": "references/worlds/16-仙逆/levels.md",
+      "references": [
+        "references/worlds/16-仙逆/reference-01.md",
+        "references/worlds/16-仙逆/reference-02.md",
+        "references/worlds/16-仙逆/reference-03.md",
+        "references/worlds/16-仙逆/reference-04.md"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "一世之尊",
+      "declared_records": 59,
+      "aliases": [
+        "一世之尊",
+        "一世",
+        "孟奇",
+        "彼岸",
+        "道果"
+      ],
+      "path": "references/worlds/17-一世之尊/index.md",
+      "primary": "references/worlds/17-一世之尊/levels.md",
+      "references": [
+        "references/worlds/17-一世之尊/reference-01.md",
+        "references/worlds/17-一世之尊/reference-02.md"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "剑来",
+      "declared_records": 56,
+      "aliases": [
+        "剑来",
+        "陈平安",
+        "飞升境"
+      ],
+      "path": "references/worlds/18-剑来/index.md",
+      "primary": "references/worlds/18-剑来/levels.md",
+      "references": [
+        "references/worlds/18-剑来/reference-01.md",
+        "references/worlds/18-剑来/reference-02.md"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "火影忍者",
+      "declared_records": 53,
+      "aliases": [
+        "火影忍者",
+        "火影",
+        "Naruto",
+        "漩涡鸣人",
+        "下忍",
+        "中忍",
+        "六道"
+      ],
+      "path": "references/worlds/19-火影忍者/index.md",
+      "primary": "references/worlds/19-火影忍者/levels.md",
+      "references": [
+        "references/worlds/19-火影忍者/reference-01.md",
+        "references/worlds/19-火影忍者/reference-02.md",
+        "references/worlds/19-火影忍者/reference-03.md"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "海贼王",
+      "declared_records": 62,
+      "aliases": [
+        "海贼王",
+        "海贼",
+        "航海王",
+        "One Piece",
+        "路飞",
+        "海军",
+        "准尉",
+        "少尉",
+        "中尉",
+        "少校",
+        "中校"
+      ],
+      "path": "references/worlds/20-海贼王/index.md",
+      "primary": "references/worlds/20-海贼王/levels.md",
+      "references": [
+        "references/worlds/20-海贼王/reference-01.md",
+        "references/worlds/20-海贼王/reference-02.md",
+        "references/worlds/20-海贼王/reference-03.md"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "死神",
+      "declared_records": 59,
+      "aliases": [
+        "死神",
+        "Bleach",
+        "黑崎一护",
+        "护廷十三队",
+        "斩魄刀",
+        "卍解"
+      ],
+      "path": "references/worlds/21-死神/index.md",
+      "primary": "references/worlds/21-死神/levels.md",
+      "references": [
+        "references/worlds/21-死神/reference-01.md",
+        "references/worlds/21-死神/reference-02.md",
+        "references/worlds/21-死神/reference-03.md"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "一拳超人",
+      "declared_records": 43,
+      "aliases": [
+        "一拳超人",
+        "一拳",
+        "One Punch Man",
+        "埼玉",
+        "琦玉",
+        "饿狼"
+      ],
+      "path": "references/worlds/22-一拳超人/index.md",
+      "primary": "references/worlds/22-一拳超人/levels.md",
+      "references": [
+        "references/worlds/22-一拳超人/reference-01.md",
+        "references/worlds/22-一拳超人/reference-02.md",
+        "references/worlds/22-一拳超人/reference-03.md"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "野生的最终BOSS出现了！",
+      "declared_records": 66,
+      "aliases": [
+        "野生的最终BOSS出现了！",
+        "野生的最终boss出现了",
+        "野生BOSS",
+        "露法斯",
+        "阿萝维纳斯",
+        "Ruphas",
+        "Alovenus"
+      ],
+      "path": "references/worlds/23-野生的最终BOSS出现了/index.md",
+      "primary": "references/worlds/23-野生的最终BOSS出现了/levels.md",
+      "references": [
+        "references/worlds/23-野生的最终BOSS出现了/reference-01.md",
+        "references/worlds/23-野生的最终BOSS出现了/reference-02.md",
+        "references/worlds/23-野生的最终BOSS出现了/reference-03.md",
+        "references/worlds/23-野生的最终BOSS出现了/reference-04.md",
+        "references/worlds/23-野生的最终BOSS出现了/reference-05.txt",
+        "references/worlds/23-野生的最终BOSS出现了/reference-06.txt"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "斩魔大圣",
+      "declared_records": 44,
+      "aliases": [
+        "斩魔大圣",
+        "Demonbane",
+        "斩魔大圣デモンベイン",
+        "九郎",
+        "大十字九郎",
+        "阿尔",
+        "Al Azif",
+        "Therion",
+        "Master Therion",
+        "埃德加",
+        "Liber Legis",
+        "军神",
+        "涡动破坏神",
+        "Vortex Blaster",
+        "阿撒托斯",
+        "奈亚"
+      ],
+      "path": "references/worlds/24-斩魔大圣/index.md",
+      "primary": "references/worlds/24-斩魔大圣/levels.md",
+      "references": [
+        "references/worlds/24-斩魔大圣/reference-01.md",
+        "references/worlds/24-斩魔大圣/reference-02.md",
+        "references/worlds/24-斩魔大圣/reference-03.md",
+        "references/worlds/24-斩魔大圣/reference-04.md",
+        "references/worlds/24-斩魔大圣/reference-05.md",
+        "references/worlds/24-斩魔大圣/reference-06.txt",
+        "references/worlds/24-斩魔大圣/reference-07.txt"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "references/worlds/01-斗破苍穹/levels.md",
+      "world_id": 1,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/斗破大主宰吞噬/斗破苍穹-全境界表.md",
+      "source_sha256": "1a145697451997e84ab1ef58bc9897dd26bd3b7baa2ec0d0d2487960c648e830",
+      "packaged_sha256": "c488c407fc8d5a6c1982ae5299f0e7eb2804843fdad22f014d13a60a9c634e83"
+    },
+    {
+      "path": "references/worlds/02-大主宰/levels.md",
+      "world_id": 2,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/斗破大主宰吞噬/大主宰-全境界表.md",
+      "source_sha256": "71f3cb9a9ab12a48c02e88a87c14d9247be52676489d2e480105c68667d4259b",
+      "packaged_sha256": "38a1208d9ce93af84d3738029289eac61698cdaa5f400e576101fa62d4f66f8f"
+    },
+    {
+      "path": "references/worlds/03-遮天/levels.md",
+      "world_id": 3,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/三部曲/遮天-全境界修订.md",
+      "source_sha256": "e0c75c426ca3386f16f4854d1f649f5a83cd71f983b614ab0eb8b4a56c3ec9be",
+      "packaged_sha256": "0b7ba5bb47b256a4abfb8bf99dc596c8b5dc027f3d170e694308d0fbde9d3aac"
+    },
+    {
+      "path": "references/worlds/04-完美世界/levels.md",
+      "world_id": 4,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/三部曲/完美世界-全境界修订.md",
+      "source_sha256": "fc2a85d2c0576c92aeac174da9d90a78e81aa5a5fede92303b8b46f3eaa1af4e",
+      "packaged_sha256": "7f2abd6794131bdece8d77736ba4f78bb654e6a811a48ea06265fcdac4377ef5"
+    },
+    {
+      "path": "references/worlds/05-圣墟/levels.md",
+      "world_id": 5,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/三部曲/圣墟-全境界修订.md",
+      "source_sha256": "e1b20d422e55f0c288c416bc7b5246c0dc907af30f7d6c7e456714062e15773b",
+      "packaged_sha256": "6f4b6e7f1ecc5cbd6b87ef6bfcf0b2a64b0cf6ce1a0e6807a294334d56a874b3"
+    },
+    {
+      "path": "references/worlds/06-吞噬星空/levels.md",
+      "world_id": 6,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/斗破大主宰吞噬/吞噬星空-全境界表.md",
+      "source_sha256": "700a0b9c890c3418824105141a94c598aeba8a35888ca1c8876f19cf5f389e1d",
+      "packaged_sha256": "07724bf1f5366df686eb47e6cebed2c9f66d5b7362c425e7961a35826d01afdc"
+    },
+    {
+      "path": "references/worlds/07-佛本是道/levels.md",
+      "world_id": 7,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/佛本/完整境界表.md",
+      "source_sha256": "f415e7b0c277cc2e1cf5a6dbd27b549eb6e1f9f15cf9bfd5a2792e1d36cefcda",
+      "packaged_sha256": "e608ce8f07c982b41cc3ba666cdc821238609f8df55cc84b7140ca76fd4e9a2e"
+    },
+    {
+      "path": "references/worlds/08-凡人修仙传/levels.md",
+      "world_id": 8,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/凡人龙珠型月/凡人修仙传/完整落位-v2.md",
+      "source_sha256": "0312b2f52e4113959c0f4d9ac147e5d5b322a3cbb70a0035a0b2271f74648514",
+      "packaged_sha256": "8292c13c14c052430e75b46ae40fa6c33dbab910c0badaa572679a3c8e10535d"
+    },
+    {
+      "path": "references/worlds/09-龙珠/levels.md",
+      "world_id": 9,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/凡人龙珠型月/龙珠/完整落位-v2.md",
+      "source_sha256": "a6b3bd4b17da4b4b3a3ceef6a9f1774e30b4eddf82738ebb523f0f84c358c49e",
+      "packaged_sha256": "c858fcd596ac568eea2f94f980f3465bc8f8f1b73da9e5cfb6146868c3d3e4b0"
+    },
+    {
+      "path": "references/worlds/10-型月/levels.md",
+      "world_id": 10,
+      "role": "primary",
+      "source_path": "reviews/全作品曲线审计-20260919/凡人龙珠型月/型月/完整落位-v2.md",
+      "source_sha256": "96c2bb60f8c2e56af44d5167f39d93dcc1d80281696763d16e3953a137e634ed",
+      "packaged_sha256": "d86501e2ff18b782ed41e27260396a95ea933c7c9ac02521dd0b6b2cd5afe92a"
+    },
+    {
+      "path": "references/worlds/11-DND费伦大陆/levels.md",
+      "world_id": 11,
+      "role": "primary",
+      "source_path": "works/DND费伦大陆/完整落位-v1.md",
+      "source_sha256": "e9317d9a51b4e7012044693bd9b618ecd9ec6af9af0dc369b2c21ad58e87d50d",
+      "packaged_sha256": "ded46e3bfb88d4444115bcf1eb16553cfac7d86a26eb48a863c743ce63473539"
+    },
+    {
+      "path": "references/worlds/12-斗罗大陆/levels.md",
+      "world_id": 12,
+      "role": "primary",
+      "source_path": "works/斗罗大陆/完整落位-v1.md",
+      "source_sha256": "0276de1a371b4ae75ebee2de356a423a840fc89a87c5f9d3debb92de6f13a437",
+      "packaged_sha256": "ae5a650b4063305d5bd98e599e1389b8bc4c027c5f43d78a40fedd78ed090966"
+    },
+    {
+      "path": "references/worlds/13-诡秘之主/levels.md",
+      "world_id": 13,
+      "role": "primary",
+      "source_path": "works/诡秘之主/完整落位-v1.md",
+      "source_sha256": "fd829f6a9d88c89abe2fee6d86a9c71207510c335520e3f6cafec706d1bd8cee",
+      "packaged_sha256": "50582a4e3dc114d6fdaa83c77511d6881d4a8f9ffe1d4b34a9e6e2fc812bb79b"
+    },
+    {
+      "path": "references/worlds/14-漫威漫画616/levels.md",
+      "world_id": 14,
+      "role": "primary",
+      "source_path": "works/漫威漫画616/完整落位-v1.md",
+      "source_sha256": "5920a78effcfea29c8ec87cf4a8798d253c6aa6da842b581fe24b45d03fa5791",
+      "packaged_sha256": "99e897e737ebfc1df24cf9893616744eb97f61d8f03b00f9951362fe3eeff37d"
+    },
+    {
+      "path": "references/worlds/15-克苏鲁神话/levels.md",
+      "world_id": 15,
+      "role": "primary",
+      "source_path": "works/克苏鲁神话/完整落位-v1.md",
+      "source_sha256": "0821342f6a92ce9fe7693f4c47b3814abe9dc01146c1940506187edea69f32c7",
+      "packaged_sha256": "81b261d10927cd7b94bbc0ad8838db6cae8a926cd8591b535bf84300a853fc97"
+    },
+    {
+      "path": "references/worlds/16-仙逆/levels.md",
+      "world_id": 16,
+      "role": "primary",
+      "source_path": "works/仙逆/完整落位-v1.md",
+      "source_sha256": "eb169acbc02520d45a0d296be1408d174837cd1af33297ef3cffacc8e249ff60",
+      "packaged_sha256": "76a1c2a7a50d59931406324a44e2eda6649b31caf04804472f973a7eb883a440"
+    },
+    {
+      "path": "references/worlds/17-一世之尊/levels.md",
+      "world_id": 17,
+      "role": "primary",
+      "source_path": "works/一世之尊/完整落位-v1.md",
+      "source_sha256": "14814985d081ecd1277b59f48017e401e3e2b75eb6d4e582a56a72fc053cd186",
+      "packaged_sha256": "41fd442194201428645db7e7e0d44bf76b3b7b5a2dc6d2ef177f2aa44033429f"
+    },
+    {
+      "path": "references/worlds/18-剑来/levels.md",
+      "world_id": 18,
+      "role": "primary",
+      "source_path": "works/剑来/完整落位-v1.md",
+      "source_sha256": "e77ddba8d1d90b27e1196c10312e960b68dd88b642e016b8898c3bff31ca993a",
+      "packaged_sha256": "f93943e88607ea8574d36538aaa9165e9c41995580c04b15ef46102e644f4cea"
+    },
+    {
+      "path": "references/worlds/19-火影忍者/levels.md",
+      "world_id": 19,
+      "role": "primary",
+      "source_path": "works/火影忍者/完整落位-v1.md",
+      "source_sha256": "eaec6a0ce83ce26a75b15d78ddafdbf0d00bd10aba94ec1d46358ea4d52c970e",
+      "packaged_sha256": "412113e976d28f6ffcb1f0dd07827b5cb934bd4e3675497751e3b37db7e14303"
+    },
+    {
+      "path": "references/worlds/20-海贼王/levels.md",
+      "world_id": 20,
+      "role": "primary",
+      "source_path": "works/海贼王/完整落位-v1.md",
+      "source_sha256": "74be858e404ab3ae6f9d9507d25070402882929b78b6a251b48cb91ea816d271",
+      "packaged_sha256": "a879c7839882db6e521021a0f26d7f203ac8faf21d15d85009f9fda8427cb4bc"
+    },
+    {
+      "path": "references/worlds/21-死神/levels.md",
+      "world_id": 21,
+      "role": "primary",
+      "source_path": "works/死神/完整落位-v1.md",
+      "source_sha256": "b1b336534fb107c56640064b291b4965827cd7c50d323690f4b924219f9df441",
+      "packaged_sha256": "5795819ae42af11c88119832900ed7744f13adcbc57a515718c8450aea1672ad"
+    },
+    {
+      "path": "references/worlds/22-一拳超人/levels.md",
+      "world_id": 22,
+      "role": "primary",
+      "source_path": "works/一拳超人/完整落位-v1.md",
+      "source_sha256": "f976367c3c0c316789ea0fc9f0c58479eac6040b6f7b28395526bb884ef8d455",
+      "packaged_sha256": "b171a16ccce76d0b722bcd04dca205549b00229ccc273c6d7347b263f4757328"
+    },
+    {
+      "path": "references/worlds/23-野生的最终BOSS出现了/levels.md",
+      "world_id": 23,
+      "role": "primary",
+      "source_path": "works/野生的最终BOSS出现了/完整落位-v1.md",
+      "source_sha256": "ae3fb17c9d839bdc7d6a7193358ec3ce931c5198784ae612311994b10d59fdba",
+      "packaged_sha256": "b766ed169e7107e7ed573be9a25d50bea8ab82b53358ae49b4c356c293766f30"
+    },
+    {
+      "path": "references/worlds/24-斩魔大圣/levels.md",
+      "world_id": 24,
+      "role": "primary",
+      "source_path": "works/斩魔大圣/主要角色与状态落位-v1.md",
+      "source_sha256": "0dcf1dee15f5c2741806b68443facb479e3c472074f43f267bfc771dd48ac6bb",
+      "packaged_sha256": "8ca7a717921ec10d89501c7f4774fb668fca464d48f323f9fd79d43d80ec5701"
+    },
+    {
+      "path": "references/worlds/01-斗破苍穹/reference-01.md",
+      "world_id": 1,
+      "role": "reference",
+      "source_path": "reviews/端点与无限结构总复核-20260919/斗破-一至六段证据审计.md",
+      "source_sha256": "a2cde9af5b8ba74115586e5934eb3967405fb360e048ec6907dd2054622f2ca9",
+      "packaged_sha256": "9bacdcb215fcf4707a932822f74a8d53cd2eede3e0f00eec232d86d738256569"
+    },
+    {
+      "path": "references/worlds/02-大主宰/reference-01.md",
+      "world_id": 2,
+      "role": "reference",
+      "source_path": "reviews/端点与无限结构总复核-20260919/首境核查-A.md",
+      "source_sha256": "9eca9c9447a378ff8d549280ba9bb34cb4d82965a422f0d87e5310aa70e45707",
+      "packaged_sha256": "fcd5e24658ffd717e63983a90774c7360f035180141d715325c1039afa5d3844"
+    },
+    {
+      "path": "references/worlds/03-遮天/reference-01.md",
+      "world_id": 3,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/三部曲/遮天-审计.md",
+      "source_sha256": "09122b85171c51ec78e92b847665a6d414b47ce49183e965ca1dc2d94621899d",
+      "packaged_sha256": "8169ba30f0839b25211a0747f87f770378aabd05d16d865d500232f4a12c5116"
+    },
+    {
+      "path": "references/worlds/04-完美世界/reference-01.md",
+      "world_id": 4,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/三部曲/完美世界-小境界分层方法-v2.md",
+      "source_sha256": "4d398c635a35e1937b81ae131eebe3403995bc26ec1fbeb2d66a0713bc414398",
+      "packaged_sha256": "d79fcffa7114a7105f6bdad34e51b0f0785aa9defa05708c291ec413f99f56d9"
+    },
+    {
+      "path": "references/worlds/04-完美世界/reference-02.md",
+      "world_id": 4,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/三部曲/完美世界-审计.md",
+      "source_sha256": "dc13c094e5bcb176287ff3a20df8ba4b64394647a22cb3acd51c52584e048383",
+      "packaged_sha256": "918e94712be9ac312d803118f1c574ac106432437707bff8f72f5b18d175cfec"
+    },
+    {
+      "path": "references/worlds/05-圣墟/reference-01.md",
+      "world_id": 5,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/三部曲/圣墟-小境界分层方法-v2.md",
+      "source_sha256": "18718d71d2d6f6d2fd81381d9c42726f3dd33c84877679b2d7405bfb75165aa0",
+      "packaged_sha256": "6896712eaab37d92edf90a5fc903b6b34f7dfa1aed6496b0968c41e9eb086928"
+    },
+    {
+      "path": "references/worlds/05-圣墟/reference-02.md",
+      "world_id": 5,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/三部曲/圣墟-审计.md",
+      "source_sha256": "55de8cee2c19856dcb57ab6784a892c3d44a7f7820118d6fbe1c6c276acd05a6",
+      "packaged_sha256": "45866a4afb1ee6c6f2357da44723c638295c932d554b9c16f0fdbcef33c54187"
+    },
+    {
+      "path": "references/worlds/06-吞噬星空/reference-01.md",
+      "world_id": 6,
+      "role": "reference",
+      "source_path": "works/吞噬星空/低中阶补齐与入口复核-v5.md",
+      "source_sha256": "163cdd056d130460e17e50b1e62c6706c1850ecfab93301ff4a829f93ebb593e",
+      "packaged_sha256": "558342408779df23f6cc55c7e0b7ed907d644abaa2ac56a6a832946b00a723e4"
+    },
+    {
+      "path": "references/worlds/07-佛本是道/reference-01.md",
+      "world_id": 7,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/佛本/审计与计算.md",
+      "source_sha256": "41c8bb1e9f9301a8513d8dae436ca7699554598c51d161956d95bc8b90d1680f",
+      "packaged_sha256": "d8e74a4ef5314b629d740e45c70a0d77ffdb4ee9ed386b71d7d6d7b994b8a737"
+    },
+    {
+      "path": "references/worlds/07-佛本是道/reference-02.md",
+      "world_id": 7,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/佛本/逐行依据.md",
+      "source_sha256": "60203f1798e4b96af3e6c991197f4c6b566507387e128b6f903bf20295b41a3d",
+      "packaged_sha256": "a961e3a4636df51edca431aae70dfe92b7af9e9419c0150dd663c1f51f5c8c5a"
+    },
+    {
+      "path": "references/worlds/08-凡人修仙传/reference-01.md",
+      "world_id": 8,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/凡人龙珠型月/凡人修仙传/逐行审计-v2.md",
+      "source_sha256": "e335948d07a049acae225fd6b84407600c3cc32a150c933ba40596029b1fd058",
+      "packaged_sha256": "dca6513cc18cd7a8c05fa5c21882159f4f18ea193c3c583ec3d8fb78aa592548"
+    },
+    {
+      "path": "references/worlds/09-龙珠/reference-01.md",
+      "world_id": 9,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/凡人龙珠型月/龙珠/逐行审计-v2.md",
+      "source_sha256": "fc87994a0f710d671bd63430b7237d4374408561930c2a869750c75241b96581",
+      "packaged_sha256": "42e520fb90fa1276b55b3073336aa42ac3aec08f75fec9e79af2580a60d98110"
+    },
+    {
+      "path": "references/worlds/09-龙珠/reference-02.md",
+      "world_id": 9,
+      "role": "reference",
+      "source_path": "works/龙珠/无限结构增殖修正-v3.md",
+      "source_sha256": "06a71866328b8f1757a7882a4e52010333ff2b56f2a82c2afbb95d078d831025",
+      "packaged_sha256": "e0abd0d3bf626a7d985151da7b8afa3b63ef1d4ed32bdadefa3193f8e1c859ad"
+    },
+    {
+      "path": "references/worlds/10-型月/reference-01.md",
+      "world_id": 10,
+      "role": "reference",
+      "source_path": "reviews/全作品曲线审计-20260919/凡人龙珠型月/型月/逐行审计-v2.md",
+      "source_sha256": "b0781b30c68effca927504ac11bc326ca68f6d15cd431c6779e8266c718d0ce6",
+      "packaged_sha256": "e24e7aaf67459c3ba2839d185b4403d29f132405cc38928c3d8f1dccb02903dd"
+    },
+    {
+      "path": "references/worlds/11-DND费伦大陆/reference-01.md",
+      "world_id": 11,
+      "role": "reference",
+      "source_path": "works/DND费伦大陆/世界与计算-v1.md",
+      "source_sha256": "36fdfb872e86fc45055cb32b3852a89746097186672aa3a4bb40559281d93631",
+      "packaged_sha256": "aa9208c950a4bdd1178ea45e5503311e3a91c870648f4262fd751c282d656861"
+    },
+    {
+      "path": "references/worlds/11-DND费伦大陆/reference-02.md",
+      "world_id": 11,
+      "role": "reference",
+      "source_path": "works/DND费伦大陆/逐行依据-v1.md",
+      "source_sha256": "6212c2753dc88473155d7a87dcce9c6510c3db05fe49142157b68a58a9798e99",
+      "packaged_sha256": "b144f87f3c9c3e0f38df6e4833b297fc4391e998799748afba97e06a2fd3e331"
+    },
+    {
+      "path": "references/worlds/12-斗罗大陆/reference-01.md",
+      "world_id": 12,
+      "role": "reference",
+      "source_path": "works/斗罗大陆/全链审计-v1.md",
+      "source_sha256": "e8c84eaec613577ae73e77cc30f07601d817c9cc2a9afb96088e5a7c274b59d5",
+      "packaged_sha256": "77673ee5a53e3128038ff9f0994cc5957043b391a0449b46979a10d77ad4d618"
+    },
+    {
+      "path": "references/worlds/12-斗罗大陆/reference-02.md",
+      "world_id": 12,
+      "role": "reference",
+      "source_path": "works/斗罗大陆/逐行依据-v1.md",
+      "source_sha256": "aab4ae221a66c7ffa02e4ffa0937886327ef7c6c16cf8b11f0dc2be4e6264029",
+      "packaged_sha256": "d9beb04a0bf62dd1f8d296ff51df481434bba6d373d066d88f920a6d26b52435"
+    },
+    {
+      "path": "references/worlds/12-斗罗大陆/reference-03.md",
+      "world_id": 12,
+      "role": "reference",
+      "source_path": "works/斗罗大陆/世界与计算-v1.md",
+      "source_sha256": "9fa8bc8906aef5681f18122076fe99921ff79da3f895882f8bd33ff575cee0c1",
+      "packaged_sha256": "594488dd0a21327c4c645525e7751e33dcdf9c8bfc3586ad3fa0de17ac789234"
+    },
+    {
+      "path": "references/worlds/13-诡秘之主/reference-01.md",
+      "world_id": 13,
+      "role": "reference",
+      "source_path": "works/诡秘之主/全链审计-v1.md",
+      "source_sha256": "cab9b7b841c0fc0fe6290e40a1d3c2523689c6394c73276fd282bd1d68b71e32",
+      "packaged_sha256": "bfea3bed77554dc56a1313de965407054b1c26c6a6e23b090598f4b62c85a6e9"
+    },
+    {
+      "path": "references/worlds/13-诡秘之主/reference-02.md",
+      "world_id": 13,
+      "role": "reference",
+      "source_path": "works/诡秘之主/逐行依据-v1.md",
+      "source_sha256": "d1e45c378f84b3c6b30a1cf7b04c0646929bdda85d6763bdf147b76905aa5964",
+      "packaged_sha256": "7214f68a2a10e1f68d84a3db4d961a1ae64d020b58b16ebb608a0e29655ea59f"
+    },
+    {
+      "path": "references/worlds/13-诡秘之主/reference-03.md",
+      "world_id": 13,
+      "role": "reference",
+      "source_path": "works/诡秘之主/世界与计算-v1.md",
+      "source_sha256": "61f55c669334eb55cd36e3fdad77c56de19ff88fcfe3abc9864ca54b0857067a",
+      "packaged_sha256": "8a31c10fd25db6bd41e5afeee474a820a82ed3683968037fe463bb4661b4daf1"
+    },
+    {
+      "path": "references/worlds/13-诡秘之主/reference-04.md",
+      "world_id": 13,
+      "role": "reference",
+      "source_path": "works/诡秘之主/序列9入口分支核查-v2.md",
+      "source_sha256": "77809f16af3325848dd5925e4ce73acdeef3abcec2b13a63bb5b5886699f3ef9",
+      "packaged_sha256": "a450a8b3e09ffe90b0f4079bffee13d7135e0aa87c7c6a2a28bc68c1e8f9d1b6"
+    },
+    {
+      "path": "references/worlds/14-漫威漫画616/reference-01.md",
+      "world_id": 14,
+      "role": "reference",
+      "source_path": "works/漫威漫画616/世界与计算-v1.md",
+      "source_sha256": "7e0b85fc26918aa3aa4a85fdacb06dfca753f51c58fa28c14750a6e366418d32",
+      "packaged_sha256": "baac66271195eecbe1acb12dcaf75eeaeb62a767909228e8d55e09ecad79a16f"
+    },
+    {
+      "path": "references/worlds/14-漫威漫画616/reference-02.md",
+      "world_id": 14,
+      "role": "reference",
+      "source_path": "works/漫威漫画616/多元以上采用与角色锚定-v5.md",
+      "source_sha256": "4a3f9fc4fdd4e4ee5d1b497af7fb0d6e5a8f423a564a2236f499ea4cb66af4f5",
+      "packaged_sha256": "3ae7272559e23b71ef44d9b984d554cb9ad059e39cbbd6b4ab4ab462b8b59ccb"
+    },
+    {
+      "path": "references/worlds/14-漫威漫画616/reference-03.md",
+      "world_id": 14,
+      "role": "reference",
+      "source_path": "works/漫威漫画616/逐行依据-v1.md",
+      "source_sha256": "486572e0531810464224255cd5a3d33006bda0be6b45f7e6a6604a3175a1fba4",
+      "packaged_sha256": "c6f148bbede672c60914544ced372eaab645972adbd7f64d2510a9afd32beadc"
+    },
+    {
+      "path": "references/worlds/14-漫威漫画616/reference-04.md",
+      "world_id": 14,
+      "role": "reference",
+      "source_path": "works/漫威漫画616/无限结构原著复核-v2.md",
+      "source_sha256": "d5fe175a5d04b0b1734ac66b5ed7ec3cf3b2d4059e4552b532776f0a6df90c45",
+      "packaged_sha256": "44ae2897fc60fe83445281f36cf8414015208bdc41ebb481f9d9a2b8bda3b851"
+    },
+    {
+      "path": "references/worlds/15-克苏鲁神话/reference-01.md",
+      "world_id": 15,
+      "role": "reference",
+      "source_path": "works/克苏鲁神话/世界与计算-v1.md",
+      "source_sha256": "b4edc93467e073978f836d33ce6eb1e27290b9cdcbab663e53985953e9a33361",
+      "packaged_sha256": "82cef0df19a358fb01807bcbb578586ec36c3aac87065f37497be930ea68d575"
+    },
+    {
+      "path": "references/worlds/15-克苏鲁神话/reference-02.md",
+      "world_id": 15,
+      "role": "reference",
+      "source_path": "works/克苏鲁神话/逐行依据-v1.md",
+      "source_sha256": "e42e36d97a1120b5eb503ec5c99cc45d320053de3c8ca41fb7bea8e77f909431",
+      "packaged_sha256": "c23f62235322a0284be79a6f3fbe0cb2f0e30d7f935a9fd8c72abe1ab05b6cef"
+    },
+    {
+      "path": "references/worlds/16-仙逆/reference-01.md",
+      "world_id": 16,
+      "role": "reference",
+      "source_path": "works/仙逆/世界与计算-v1.md",
+      "source_sha256": "18cc5e8e574312c7c0af21d43d5f5d28a47d1a507f75cd478e85fa71f291fa14",
+      "packaged_sha256": "aac6edd5cd6970a3a3a66caeafceacb5b8114fb9f08e861bf920e7d3ed275efd"
+    },
+    {
+      "path": "references/worlds/16-仙逆/reference-02.md",
+      "world_id": 16,
+      "role": "reference",
+      "source_path": "works/仙逆/全链重建核验-v5.md",
+      "source_sha256": "70b653acb9510d7263c7f9943f0506b2b7510af939d6faa08c796293fff08554",
+      "packaged_sha256": "6832a6f5fbbb25739ecb37b9830542bd3137222dfe5746f8605be6265fc8f35a"
+    },
+    {
+      "path": "references/worlds/16-仙逆/reference-03.md",
+      "world_id": 16,
+      "role": "reference",
+      "source_path": "works/仙逆/凝气二层衔接复核-v1.md",
+      "source_sha256": "efe580e8b05ba6751968e63eac85761f3c0e9fb79cfdde1507effb4b2450ba99",
+      "packaged_sha256": "fa1fd9f30da4a4d862da4deaa3ca9d03f79f866b7e3c2dc8126ba2075f4fc6fa"
+    },
+    {
+      "path": "references/worlds/16-仙逆/reference-04.md",
+      "world_id": 16,
+      "role": "reference",
+      "source_path": "works/仙逆/逐行依据-v1.md",
+      "source_sha256": "7e51bb72996d7ba9522b3594754da48f5476d9a3ce581b1082d5d3f9b592548f",
+      "packaged_sha256": "8caa5f31740b8e9339beb6c116c2e50d8a3ee3d5d7cf3a7119a32cc359c21f7e"
+    },
+    {
+      "path": "references/worlds/17-一世之尊/reference-01.md",
+      "world_id": 17,
+      "role": "reference",
+      "source_path": "works/一世之尊/世界与计算-v1.md",
+      "source_sha256": "9e7a5ede05bed45e8a2e7becc9a5c5ac4a6bbc84d87c3fd880b47ef57ead7870",
+      "packaged_sha256": "de9221431c519a290b1c83c8b51d3ae3d2b596cd1ef4571b0d0600628d0a3328"
+    },
+    {
+      "path": "references/worlds/17-一世之尊/reference-02.md",
+      "world_id": 17,
+      "role": "reference",
+      "source_path": "works/一世之尊/逐行依据-v1.md",
+      "source_sha256": "1fb361aa1b7a76a3875c9626b3bbd76e824087292562b88501b51e5cfda9a130",
+      "packaged_sha256": "1755f7ba545ab491386199b4e749361b579003ef9f1afc2a256edf3486df1a3f"
+    },
+    {
+      "path": "references/worlds/18-剑来/reference-01.md",
+      "world_id": 18,
+      "role": "reference",
+      "source_path": "works/剑来/世界与计算-v1.md",
+      "source_sha256": "1d9cb8b027d93ef00e12ea0bb7c0b91e943ae0884743f0e437ed467a03ea25a7",
+      "packaged_sha256": "da9823254b0e264be14839f559de82377e5ab33508a8bab1498de419de8e0f78"
+    },
+    {
+      "path": "references/worlds/18-剑来/reference-02.md",
+      "world_id": 18,
+      "role": "reference",
+      "source_path": "works/剑来/逐行依据-v1.md",
+      "source_sha256": "692b9656f3413e389a51f38d93964dcd6a6d80638f1f1a53bba6549e9be53851",
+      "packaged_sha256": "4679f997deb2a74dfadfdbc999a53ff1dc5e9913a49bf89512ecc51872aff0c2"
+    },
+    {
+      "path": "references/worlds/19-火影忍者/reference-01.md",
+      "world_id": 19,
+      "role": "reference",
+      "source_path": "works/火影忍者/世界与计算-v1.md",
+      "source_sha256": "45d66918833a274d6798198ec32293d839ba7fe901a2efe2ce7bb42b0e34570c",
+      "packaged_sha256": "a3cda03283655ec0b394da2e8166a7ad6c19024053e44fe6042c4f078836327a"
+    },
+    {
+      "path": "references/worlds/19-火影忍者/reference-02.md",
+      "world_id": 19,
+      "role": "reference",
+      "source_path": "works/火影忍者/非物质机制-v1.md",
+      "source_sha256": "d7459d89cc6e04db2bcb166fdf42dc0ed2e2a65947da58fbb97cfe82e0431837",
+      "packaged_sha256": "34002b1cd943e71f2fd2e49ebc60950a77a3047364a03642c0d19d2dfe2d31a3"
+    },
+    {
+      "path": "references/worlds/19-火影忍者/reference-03.md",
+      "world_id": 19,
+      "role": "reference",
+      "source_path": "works/火影忍者/逐行依据-v1.md",
+      "source_sha256": "96e9d136c17d156e94f3785087248ece8ceb5f877be17abb76d943d555897d3a",
+      "packaged_sha256": "0245bdb56a1f38b2bd75dfdf0973df392ecb4d84c05ee166e740f297f65411b8"
+    },
+    {
+      "path": "references/worlds/20-海贼王/reference-01.md",
+      "world_id": 20,
+      "role": "reference",
+      "source_path": "works/海贼王/世界与计算-v1.md",
+      "source_sha256": "1acaaee921bd74c620e517d896dcc7d6dad83c2f3a18d1fb7eaf250713877458",
+      "packaged_sha256": "e5f3780c518511feb78b6dd699078f842830ce14eca1b8a875968bd9bf13dc7d"
+    },
+    {
+      "path": "references/worlds/20-海贼王/reference-02.md",
+      "world_id": 20,
+      "role": "reference",
+      "source_path": "works/海贼王/非物质机制-v1.md",
+      "source_sha256": "4d603ec995245c5be37ad4431332f7d0568d37224ab9925d6a1929d6bbfece00",
+      "packaged_sha256": "80fa0601cbe2499d583e4744c08091489b6d1c9ca44120446a5204e2490ca611"
+    },
+    {
+      "path": "references/worlds/20-海贼王/reference-03.md",
+      "world_id": 20,
+      "role": "reference",
+      "source_path": "works/海贼王/逐行依据-v1.md",
+      "source_sha256": "062748a2e1929b98ad0ddeb8d5ff11e97892d5c4231805c56587c582c8338711",
+      "packaged_sha256": "4da83b1db0779cafb9d49b8554e590f255e85b851a953249e4c56daf5e4ddd92"
+    },
+    {
+      "path": "references/worlds/21-死神/reference-01.md",
+      "world_id": 21,
+      "role": "reference",
+      "source_path": "works/死神/世界与计算-v1.md",
+      "source_sha256": "0289fa61eaf087227057ce6a011e20f790f2b900e94b3a19ad8c1381236d9fcc",
+      "packaged_sha256": "5960408ff1dcaefc55bd585928e71ab295043556b9dea14da85ed09d8ed78f76"
+    },
+    {
+      "path": "references/worlds/21-死神/reference-02.md",
+      "world_id": 21,
+      "role": "reference",
+      "source_path": "works/死神/非物质机制-v1.md",
+      "source_sha256": "3bb42357343112ac97b3a81b1f06d03fc8008fee843acf46d419589142e4ddaf",
+      "packaged_sha256": "3ce0337355d006efb8606bf87f23d359fc934ea291794255d18c968b98182e8a"
+    },
+    {
+      "path": "references/worlds/21-死神/reference-03.md",
+      "world_id": 21,
+      "role": "reference",
+      "source_path": "works/死神/逐行依据-v1.md",
+      "source_sha256": "989ecdaeadd0807f205b4853787495e5d28b966457934205b47426ff7fda59dc",
+      "packaged_sha256": "eb33259972319daa393fd8b0fceb7943f3295bc44dd2fdebf16ad526d4d4c5ea"
+    },
+    {
+      "path": "references/worlds/22-一拳超人/reference-01.md",
+      "world_id": 22,
+      "role": "reference",
+      "source_path": "works/一拳超人/世界与计算-v1.md",
+      "source_sha256": "cfd714e8c6216ded7bab977e8a4e9190df5a02cbe9913579b460d76ac5aaf1d1",
+      "packaged_sha256": "3820a08c4da9e4fffbdeff99276882b84820e7c9f142aae683888bf85780bbde"
+    },
+    {
+      "path": "references/worlds/22-一拳超人/reference-02.md",
+      "world_id": 22,
+      "role": "reference",
+      "source_path": "works/一拳超人/非物质机制-v1.md",
+      "source_sha256": "6a4e36a3114192ec9ec7d3a7c5d4b5cdbf1b827f2543c78067cd9a0f0ffd87fd",
+      "packaged_sha256": "03286ffdcdba29b4f1f201e323e37f36fcbb16138f7eeaf37f681e3ea5d82142"
+    },
+    {
+      "path": "references/worlds/22-一拳超人/reference-03.md",
+      "world_id": 22,
+      "role": "reference",
+      "source_path": "works/一拳超人/逐行依据-v1.md",
+      "source_sha256": "16af853fe82e1879b27233dbf810a6b33cd884ff3d6d43d4a859d5e812d7e358",
+      "packaged_sha256": "02a09ce09dad17f0e92ff961d3b1cebe5055cfa4b6cde04a038e213b57ae0040"
+    },
+    {
+      "path": "references/worlds/23-野生的最终BOSS出现了/reference-01.md",
+      "world_id": 23,
+      "role": "reference",
+      "source_path": "works/野生的最终BOSS出现了/终局三段重算-v2.md",
+      "source_sha256": "b2fd4d13e194290a1632f46d64cdc07083ae98978872cb209351c2b34ab09c5f",
+      "packaged_sha256": "6a6097736cf3ca82e2df0de572a5279ca5beecc047faaad31d39189cddcf19e5"
+    },
+    {
+      "path": "references/worlds/23-野生的最终BOSS出现了/reference-02.md",
+      "world_id": 23,
+      "role": "reference",
+      "source_path": "works/野生的最终BOSS出现了/世界与计算-v1.md",
+      "source_sha256": "01d09d352f4701a592792d709821bffc7be0526fef0f58ad95e4e59d738cfad4",
+      "packaged_sha256": "0ed5f553853e840ad2ad100d0d4083b0ec490b411359d5beb048c160ed24baad"
+    },
+    {
+      "path": "references/worlds/23-野生的最终BOSS出现了/reference-03.md",
+      "world_id": 23,
+      "role": "reference",
+      "source_path": "works/野生的最终BOSS出现了/逐行依据-v1.md",
+      "source_sha256": "aa7cc1831f44f1be43d79a6e28fd0951cbadf66bffe3fddc2a8786e527a574da",
+      "packaged_sha256": "ebb33d72b407ede6a607a6802b1787ced164bdf9a666be8052b3fdd302f54587"
+    },
+    {
+      "path": "references/worlds/23-野生的最终BOSS出现了/reference-04.md",
+      "world_id": 23,
+      "role": "reference",
+      "source_path": "works/野生的最终BOSS出现了/交付核验-v1.md",
+      "source_sha256": "3742a7640c540b5cc59c6dbdec1c831b1a00c9202e09fd374be6083c44881980",
+      "packaged_sha256": "b839f9d6ea0b71f579f67ac630f5ecbd7a2a53fe164c9cee11e4599b300da877"
+    },
+    {
+      "path": "references/worlds/23-野生的最终BOSS出现了/reference-05.txt",
+      "world_id": 23,
+      "role": "reference",
+      "source_path": "works/野生的最终BOSS出现了/sources/终局-用户第三段.txt",
+      "source_sha256": "ee13004ff8735bcf991cfafd6df801276bc81e017a67581a03d04c9d4b4fe121",
+      "packaged_sha256": "ee13004ff8735bcf991cfafd6df801276bc81e017a67581a03d04c9d4b4fe121"
+    },
+    {
+      "path": "references/worlds/23-野生的最终BOSS出现了/reference-06.txt",
+      "world_id": 23,
+      "role": "reference",
+      "source_path": "works/野生的最终BOSS出现了/sources/终局-用户第二段.txt",
+      "source_sha256": "06fb2603059ba1df1e42d966c606a60acb4d403b22b7a67e4f2e1da255e7e2a0",
+      "packaged_sha256": "06fb2603059ba1df1e42d966c606a60acb4d403b22b7a67e4f2e1da255e7e2a0"
+    },
+    {
+      "path": "references/worlds/24-斩魔大圣/reference-01.md",
+      "world_id": 24,
+      "role": "reference",
+      "source_path": "works/斩魔大圣/角色计算与依据-v1.md",
+      "source_sha256": "2571a49474ded2869e06ae9e1ed4126e6d1a7de9b7972e25efb3975bc10d7960",
+      "packaged_sha256": "a2456356e81b41a72142eb74fb157c80e72534c7e52812ec77bb52bb8473947d"
+    },
+    {
+      "path": "references/worlds/24-斩魔大圣/reference-02.md",
+      "world_id": 24,
+      "role": "reference",
+      "source_path": "works/斩魔大圣/世界与计算-v1.md",
+      "source_sha256": "a7cbc334760676a76ac4860d7f001689d4c42638ba678b32f58abb18c515471b",
+      "packaged_sha256": "18399506a47d0b4b00475dd21ced1f545c23f0f117299dc892942b5a433e32a3"
+    },
+    {
+      "path": "references/worlds/24-斩魔大圣/reference-03.md",
+      "world_id": 24,
+      "role": "reference",
+      "source_path": "works/斩魔大圣/完整落位-v1.md",
+      "source_sha256": "315a6fe188d10bf34bdc90367559a747f734505ac736cb3bcac3a66baba065bd",
+      "packaged_sha256": "274aec222837e1bb1718d65f884ebcad5447ccf5b98fa351f1b6231c69b46d16"
+    },
+    {
+      "path": "references/worlds/24-斩魔大圣/reference-04.md",
+      "world_id": 24,
+      "role": "reference",
+      "source_path": "works/斩魔大圣/前传终段范围修正-v2.md",
+      "source_sha256": "363bf3a123c178f6ae44c718f0ae335c672173d6d4c77b7a25e321b594936eb2",
+      "packaged_sha256": "412556f698a118c07595430dfd6eeb565093d3e18c4c321da41a10157c155fab"
+    },
+    {
+      "path": "references/worlds/24-斩魔大圣/reference-05.md",
+      "world_id": 24,
+      "role": "reference",
+      "source_path": "works/斩魔大圣/逐行依据-v1.md",
+      "source_sha256": "7aa5c01f6330f5140b29b6cac78b2de79f0d20f6c8417692334b8dcab7d86c35",
+      "packaged_sha256": "adbfc3181a7e7c7797dd5d9b429deb5b8f68b147346721f12f6a81cf8e45c885"
+    },
+    {
+      "path": "references/worlds/24-斩魔大圣/reference-06.txt",
+      "world_id": 24,
+      "role": "reference",
+      "source_path": "works/斩魔大圣/sources/前传-军神强袭-用户原文.txt",
+      "source_sha256": "30f241df95895ad797b665f88bf6fb56254829030fafb1663c6a409de573018d",
+      "packaged_sha256": "30f241df95895ad797b665f88bf6fb56254829030fafb1663c6a409de573018d"
+    },
+    {
+      "path": "references/worlds/24-斩魔大圣/reference-07.txt",
+      "world_id": 24,
+      "role": "reference",
+      "source_path": "works/斩魔大圣/sources/正篇-古神与奈亚-用户原文.txt",
+      "source_sha256": "e865c445ac8e59acbcb27ca3fe34696e61e8b70a9e1ec8461c141f760fa64e56",
+      "packaged_sha256": "e865c445ac8e59acbcb27ca3fe34696e61e8b70a9e1ec8461c141f760fa64e56"
+    }
+  ],
+  "omitted_local_references": [
+    {
+      "source": "reviews\\全作品曲线审计-20260919\\三部曲\\遮天-全境界修订.md",
+      "target": "遮天-全境界修订.json"
+    },
+    {
+      "source": "reviews\\全作品曲线审计-20260919\\三部曲\\遮天-全境界修订.md",
+      "target": "生成三部曲修订.cjs"
+    },
+    {
+      "source": "reviews\\全作品曲线审计-20260919\\佛本\\完整境界表.md",
+      "target": "修订数据.json"
+    },
+    {
+      "source": "reviews\\全作品曲线审计-20260919\\佛本\\完整境界表.md",
+      "target": "逐项变化.json"
+    },
+    {
+      "source": "reviews\\全作品曲线审计-20260919\\凡人龙珠型月\\凡人修仙传\\完整落位-v2.md",
+      "target": "游戏数据-v2.json"
+    },
+    {
+      "source": "reviews\\全作品曲线审计-20260919\\凡人龙珠型月\\型月\\完整落位-v2.md",
+      "target": "游戏数据-v2.json"
+    },
+    {
+      "source": "works\\DND费伦大陆\\完整落位-v1.md",
+      "target": "游戏数据-v1.json"
+    },
+    {
+      "source": "works\\斗罗大陆\\完整落位-v1.md",
+      "target": "游戏数据-v1.json"
+    },
+    {
+      "source": "works\\诡秘之主\\完整落位-v1.md",
+      "target": "游戏数据-v1.json"
+    },
+    {
+      "source": "works\\一世之尊\\完整落位-v1.md",
+      "target": "游戏数据-v1.json"
+    },
+    {
+      "source": "works\\剑来\\完整落位-v1.md",
+      "target": "游戏数据-v1.json"
+    },
+    {
+      "source": "works\\火影忍者\\完整落位-v1.md",
+      "target": "游戏数据-v1.json"
+    },
+    {
+      "source": "works\\火影忍者\\完整落位-v1.md",
+      "target": "核验-v1.json"
+    },
+    {
+      "source": "works\\海贼王\\完整落位-v1.md",
+      "target": "游戏数据-v1.json"
+    },
+    {
+      "source": "works\\海贼王\\完整落位-v1.md",
+      "target": "核验-v1.json"
+    },
+    {
+      "source": "works\\死神\\完整落位-v1.md",
+      "target": "游戏数据-v1.json"
+    },
+    {
+      "source": "works\\死神\\完整落位-v1.md",
+      "target": "核验-v1.json"
+    },
+    {
+      "source": "works\\一拳超人\\完整落位-v1.md",
+      "target": "游戏数据-v1.json"
+    },
+    {
+      "source": "works\\一拳超人\\完整落位-v1.md",
+      "target": "核验-v1.json"
+    },
+    {
+      "source": "works\\吞噬星空\\低中阶补齐与入口复核-v5.md",
+      "target": "历史采用值对照-20260919.md"
+    },
+    {
+      "source": "works\\DND费伦大陆\\世界与计算-v1.md",
+      "target": "../../reviews/DND返工-20260919/逐环能力覆盖.md"
+    },
+    {
+      "source": "works\\DND费伦大陆\\世界与计算-v1.md",
+      "target": "../../reviews/DND返工-20260919/方法与凡人法师审查.md"
+    },
+    {
+      "source": "works\\DND费伦大陆\\世界与计算-v1.md",
+      "target": "../../reviews/DND返工-20260919/传奇法师证据.md"
+    },
+    {
+      "source": "works\\DND费伦大陆\\世界与计算-v1.md",
+      "target": "../../reviews/DND返工-20260919/神祇证据.md"
+    },
+    {
+      "source": "works\\斗罗大陆\\全链审计-v1.md",
+      "target": "全链核验-v1.json"
+    },
+    {
+      "source": "works\\斗罗大陆\\全链审计-v1.md",
+      "target": "../../reviews/剩余预设世界-20260919/斗罗诡秘/敏感性-v1.json"
+    },
+    {
+      "source": "works\\斗罗大陆\\全链审计-v1.md",
+      "target": "../../reviews/剩余预设世界-20260919/斗罗诡秘/生成-v1.cjs"
+    },
+    {
+      "source": "works\\漫威漫画616\\多元以上采用与角色锚定-v5.md",
+      "target": "../../reviews/剩余预设世界-20260919/规则与神话/research-cache/marvel-page-174.txt"
+    },
+    {
+      "source": "works\\漫威漫画616\\多元以上采用与角色锚定-v5.md",
+      "target": "量子递归数学复核-v4.md"
+    },
+    {
+      "source": "works\\漫威漫画616\\逐行依据-v1.md",
+      "target": "量子递归数学复核-v4.md"
+    },
+    {
+      "source": "works\\克苏鲁神话\\世界与计算-v1.md",
+      "target": "银钥匙完整原型空间数学核查-v4.md"
+    },
+    {
+      "source": "works\\克苏鲁神话\\逐行依据-v1.md",
+      "target": "无限结构原著复核-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\世界与计算-v1.md",
+      "target": "后段锚点原著复核-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\世界与计算-v1.md",
+      "target": "文本写回核验-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\逐行依据-v1.md",
+      "target": "后段锚点原著复核-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\逐行依据-v1.md",
+      "target": "后段锚点原著复核-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\逐行依据-v1.md",
+      "target": "后段锚点原著复核-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\逐行依据-v1.md",
+      "target": "后段锚点原著复核-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\逐行依据-v1.md",
+      "target": "后段锚点原著复核-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\逐行依据-v1.md",
+      "target": "后段锚点原著复核-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\逐行依据-v1.md",
+      "target": "后段锚点原著复核-v2.md"
+    },
+    {
+      "source": "works\\一世之尊\\逐行依据-v1.md",
+      "target": "后段锚点原著复核-v2.md"
+    },
+    {
+      "source": "works\\斩魔大圣\\完整落位-v1.md",
+      "target": "交付核验-v1.md"
+    }
+  ]
+}

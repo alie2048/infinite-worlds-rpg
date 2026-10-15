@@ -1,0 +1,7 @@
+interface:
+  display_name: "无限系统·诸天之旅"
+  short_description: "自然中文互动诸天游戏，内置126阶总表、24作分页、精准检索与长期存档"
+  default_prompt: "使用 $infinite-worlds-rpg 开始或继续无限系统诸天之旅，按内置世界资料主持自然语言互动游戏。"
+policy:
+  allow_implicit_invocation: true
+

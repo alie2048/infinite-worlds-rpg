@@ -1,0 +1,14 @@
+# 临时日志与缓存
+*.log
+.system_generated/
+*.tmp
+*.bak
+
+# 操作系统临时文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE 配置
+.vscode/
+.idea/
